@@ -1,0 +1,4 @@
+interface:
+  display_name: "独立代码审查"
+  short_description: "独立审查主 Agent 的未提交改动，以可核验证据报告缺陷和修复建议"
+  default_prompt: "使用 $agent-code-review 审查当前项目中主 Agent 的未提交改动，只审查不修改；结合任务需求验证行为，给出可复现的问题及修复建议。"
