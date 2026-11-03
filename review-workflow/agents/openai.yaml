@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Workflow"
+  short_description: "Evidence-based review with regression tests and re-review"
+  default_prompt: "Use $review-workflow to review the current changes and report verified findings."
